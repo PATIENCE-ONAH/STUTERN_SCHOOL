@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* body{
+    background-color: rgb(236, 192, 192);
+} */
+.likes{
+    background-color: black;
+    color: white;
+    /* font-size: 18px; */
+    margin: 50px;
+}
+#heading{
+    padding-top: 20px;
+}
+#fourth{
+    padding-bottom: 20px;
+}
+
+.dislikes{
+    background-color: black;
+    color: white;
+    margin: 50px;
+}
+#heading_2{
+    padding-top: 20px;
+}
+#fourth_d{
+    padding-bottom: 20px;
+}
+#first{
+    color: blue;
+}
+#first_d{
+    color: red;
+}
