@@ -1,0 +1,349 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: white; 
+}
+
+.container{
+    background-color: black;
+}
+
+/* Head  section */
+
+#head-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/topbrgd-img.jpg');
+    background-size: cover;
+}
+
+.nav-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 55px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-direction: row;
+    z-index: 1;
+}
+.nav-area img{
+    width: 150px;
+}
+.nav-area button{
+    background: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    border-radius: 3px;
+}
+.nav-area button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.center-test{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+
+}
+.center-test h1{
+    font-size: 3.125rem;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0;
+}
+.center-test h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem 0;
+    letter-spacing: 0;
+}
+.center-test div.btn h3{
+    font-size: 1.2rem;
+    max-width: none;
+    padding-bottom: 20px;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+form{
+    display: flex;
+}
+form input{
+    padding: 10px 10px 0;
+    height:60px ;
+    width: 420px;
+    text-align: left;
+    margin-right: 2px;
+    font-size: 1rem;
+    font-weight: 400;
+    align-items: center;
+    
+}
+form button{
+    height:60px ;
+    width: 210px;
+    background: #e50914;
+}
+form button a{
+    font-size: 1.625rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+form button a i{
+    color: white;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+/* second section */
+
+#section-two{
+    border-top: 8px solid #222;
+    border-bottom: 8px solid #222;
+    width: 100%;
+}
+.section-two-row{
+    display: flex;
+    align-items: flex-start;
+    /*  */
+    height: 70vh;
+}
+.section-two-row div h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+.section-two-row div h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.col-left{
+    padding: 110px 95px;
+    width: 50%;
+    align-content: center;
+}
+.col-right{
+    padding-bottom: 20px;
+}
+.col-right img{
+    width: 500px;
+}
+
+/* section threee */
+
+#section-three{
+    border-bottom: 8px solid #222;
+    width: 100%;
+
+}
+
+.section-three-row{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 70vh;
+}
+.col-left-l-two{
+    padding-left: 50px;
+}
+.section-three-row h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+.section-three-row h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.col-left-l-two img{
+    width: 500px;
+}
+.col-right-r-two{
+    padding: 110px 100px;
+    width: 55%;
+}
+
+/* section four */
+#section-four{
+    border-bottom: 8px solid #222;
+    width: 100%;
+    height: 40vh;
+}
+.section-four-row div h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+.section-four-row div h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+.col-left-four{
+    padding: 60px 100px;
+    width: 60%;
+}
+
+/* section four */
+
+.col-left-l-three img{
+    width: 450px;
+
+}
+.col-left-l-three{
+    padding: 50px 0;
+    padding-left: 100px;
+}
+
+/* section five */
+
+#section-five{
+    /* padding: 40px 0; */
+    width: 100%;
+    height: 150vh;
+    border-bottom: 8px solid #222;
+}
+#section-five h1{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+    letter-spacing: 0px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.section-five-row{
+    padding: 0 20%;
+    padding-bottom: 40px; 
+}
+
+.collapsible {
+    background-color: #303030;;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 1px;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #303030;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+
+.btn h3{
+    font-size: 1.2rem;
+    max-width: none;
+    padding: 20px 0;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-align: center;
+}
+
+#second-form{
+    padding: 0 30%;
+}
+
+/* Last section */
+
+#last-section{
+    padding: 40px 80px;
+    width: 100%;
+    height: 53vh;
+}
+#contact-us{
+    text-decoration: none;
+    margin-left: 120px;
+    color: #737373;
+}
+#contact-us:hover{
+    text-decoration: underline;
+}
+.row-last{
+    display: flex;
+    justify-items: center;
+    padding: 30px 0;
+}
+
+.col-last{
+    padding-left: 80px;
+}
+
+.col-last ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.col-last ul li a{
+    text-decoration: none;
+    color: #737373;
+    cursor: pointer;
+}
+
+.col-last ul li a:hover{
+    text-decoration: underline;
+}
+
+li{
+    text-decoration: none;
+}
+
+#last-section p{
+    margin-left: 120px;
+    color: #737373;
+}
